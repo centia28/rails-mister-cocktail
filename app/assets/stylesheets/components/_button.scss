@@ -1,0 +1,36 @@
+.btn-light-pink{
+  background-color: white;
+  border: 1px solid $pinker;
+  border-radius: 5px;
+  padding: 8px 24px;
+  color: $pinker;
+  opacity: 0.8;
+  transition: .5;
+
+  &:hover{
+    background-color: $pinker;
+    color: white;
+    opacity: 1;
+    border: none;
+    padding: 8px 24px;
+  }
+}
+
+.btn-primary-pink{
+  background-color: $pinker;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 24px;
+  color: white;
+  opacity: 0.8;
+  transition: .5;
+  text-decoration: none;
+  font-family: $body-font;
+
+  &:hover{
+    color: white;
+    opacity: 1;
+    transition: .5;
+    text-decoration: none;
+  }
+}

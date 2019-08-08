@@ -11,3 +11,5 @@
 - Add a new dose (ingredient/description pair) to an existing cocktail
 
 
+- Search by name
+- Search by ingredient

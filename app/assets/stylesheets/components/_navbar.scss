@@ -10,3 +10,17 @@
 .navbar-lewagon .navbar-brand img {
   width: 40px;
 }
+
+.bg-pink{
+  background-color: white;
+
+  #search_name{
+    border: 1px solid white;
+  }
+}
+
+#brand a{
+    font-family: $brand;
+    color: $pink;
+    font-weight: bolder;
+  }

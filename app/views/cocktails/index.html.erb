@@ -1,10 +1,6 @@
-<h1>Cocktails#index</h1>
-<ul>
+<div class="cards">
   <% @cocktails.each do |cocktail| %>
-    <li>
-      <%= link_to cocktail.name, cocktail_path(cocktail) %>
-    </li>
+    <%= render 'cocktail_card', cocktail: cocktail %>
   <% end %>
-</ul>
+</div>
 
-<%= link_to 'Add a new cocktail', new_cocktail_path %>
