@@ -11,5 +11,6 @@
 - Add a new dose (ingredient/description pair) to an existing cocktail
 
 
+- Delete dose/ingredient on production (not wirking)
 - Search by name
 - Search by ingredient
