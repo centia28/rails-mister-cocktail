@@ -34,3 +34,17 @@
     text-decoration: none;
   }
 }
+.btn-actions{
+  background-color: #22333B;
+  text-decoration: none;
+  color: #fff;
+  border-color: #22333B;
+  opacity: .9;
+  transition: .5;
+
+  &:hover{
+    color: #fff;
+    opacity: 1;
+    transition: .5;
+  }
+}

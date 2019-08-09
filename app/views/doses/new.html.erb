@@ -1,7 +1,18 @@
-<h1>Add a new dose to <%= @cocktail.name %></h1>
-<%= simple_form_for (@dose) do |f| %>
-  <%= f.association :ingredient, label: 'Select an ingredient', collection: Ingredient.all.order(:name) %>
-  <%= f.input :description %>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 w-100">
+      <h1 class="text-center">Add a new ingredient to <%= @cocktail.name %></h1>
+    </div>
+  </div>
 
-  <%= f.button :submit, class: 'btn-primary-pink' %>
-<% end %>
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 m-auto">
+      <%= simple_form_for (@dose) do |f| %>
+        <%= f.association :ingredient, label: 'Select an ingredient', collection: Ingredient.all.order(:name) %>
+        <%= f.input :description %>
+
+        <%= f.button :submit, class: 'btn btn-actions' %>
+      <% end %>
+    </div>
+  </div>
+</div>
