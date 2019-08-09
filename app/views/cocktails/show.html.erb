@@ -1,4 +1,4 @@
-<div class="cocktail-img text-center col-12" style="background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('<%= cl_image_path @cocktail.photo%>')">
+<div class="cocktail-img text-center col-12" style="background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('<%= @cocktail.photo.present? ? cl_image_path(@cocktail.photo, height: 300, width: 400, crop: :fill) : image_path('cocktail-placeholder.jpg') %>')">
   <h3><%= @cocktail.name %></h3>
 </div>
 <div class="container">
