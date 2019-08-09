@@ -1,13 +1,15 @@
-<nav class="navbar bg-pink">
-  <a id="brand" href="/">
-    <%= image_tag "logo.png", alt: "logo", width: 30, height: 30, class: "d-inline-block align-top" %>
-    Cocktailise
-  </a>
+<nav class="navbar d-flex justify-content-start align-items-center bg-white">
+  <div class="mr-auto">
+    <a id="brand" href="/">
+      <%= image_tag "logo.png", alt: "logo", width: 30, height: 30, class: "d-inline-block align-top" %>
+      Cocktailise
+    </a>
+  </div>
 
   <form class="form-inline">
      <input class="form-control mr-sm-2" id="search_name" type="search" placeholder="Search by name" aria-label="Search">
      <button class="btn btn-outline-success my-2 my-sm-0 btn-light-pink" type="submit">Search</button>
    </form>
 
-   <%= link_to 'Add a cocktail', new_cocktail_path, class: 'btn-primary-pink' %>
+   <%= link_to 'Add a cocktail', new_cocktail_path, class: 'btn-primary-pink ml-sm-2' %>
 </nav>

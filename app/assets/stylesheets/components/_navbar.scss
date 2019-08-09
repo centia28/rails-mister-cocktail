@@ -11,16 +11,18 @@
   width: 40px;
 }
 
-.bg-pink{
+.bg-white{
   background-color: white;
 
   #search_name{
     border: 1px solid white;
   }
 }
-
-#brand a{
+.navbar{
+  a{
     font-family: $brand;
     color: $pink;
     font-weight: bolder;
   }
+}
+

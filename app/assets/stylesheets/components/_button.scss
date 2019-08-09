@@ -21,11 +21,11 @@
   border: none;
   border-radius: 5px;
   padding: 8px 24px;
-  color: white;
+  color: white !important;
   opacity: 0.8;
   transition: .5;
   text-decoration: none;
-  font-family: $body-font;
+  font-family: $body-font !important;
 
   &:hover{
     color: white;
